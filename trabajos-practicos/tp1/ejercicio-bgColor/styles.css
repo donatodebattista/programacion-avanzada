@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.change-color-red-btn, .change-color-blue-btn, .change-color-green-btn, .reset-btn{
+    color: black;
+    width: 120px;
+    height: 60px;
+    border-radius: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 10px;
+    transition: 0.2s ease all;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.change-color-red-btn:hover, .change-color-blue-btn:hover, .change-color-green-btn:hover, .reset-btn:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.change-color-red-btn{
+    background-color: red;
+}
+.change-color-blue-btn{
+    background-color: blue;
+}
+.change-color-green-btn{
+    background-color: green;
+}
+
+.reset-btn{
+    width: 250px;
+}
